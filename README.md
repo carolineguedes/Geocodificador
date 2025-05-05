@@ -1,6 +1,6 @@
-# 🌍 Geolocalizador
+# 🌍 Geocodificador
 
-O **Geolocalizador** é um projeto que une tecnologia e geografia para mostrar, de forma prática, como a localização geográfica pode ser usada em sistemas modernos. Seja para encontrar um local, rastrear um objeto ou simplesmente entender o espaço à nossa volta.
+Um geocodificador é uma ferramenta (geralmente um software ou serviço online) que converte endereços ou descrições de locais em coordenadas geográficas (latitude e longitude). Esse processo é chamado de geocodificação.
 
 ## 🧭 Sobre o Projeto
 
