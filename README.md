@@ -34,6 +34,6 @@ utilize no terminal: pip install pandas geopy
 
 ## 4. Leia, é importante!
 
--Use dados limpos: sem acentos, símbolos ou abreviações confusas
+- Use dados limpos: sem acentos, símbolos ou abreviações confusas
 - A API Nominatim tem limites de requisições por segundo. O RateLimiter foi configurado para evitar bloqueios. Normalmente ele realiza uma geocodificação por seg. Portanto, se tiver uma base de dados grande, será necessário esperar um tempo maior de execução.
 - Para grandes volumes de endereços, considere usar serviços pagos com maior desempenho (como Google Maps API)
