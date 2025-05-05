@@ -20,7 +20,7 @@ Este sistema utiliza Python e a biblioteca "geopy" para converter endereços em 
 ## 🚀 Como Usar
 Antes de tudo, prepare o arquivo de entrada:
 
-- O arquivo deve ser um CSV com separador ;
+- O arquivo deve ser um CSV com separador 
 - Nomeie as colunas como: rua, bairro, municipio, estado
 - Evite acentos e caracteres especiais (ex: "São José" ➜ "Sao Jose", "Trav. João N." ➜ "Trav Joao N")
 - Salve como enderecos.csv no mesmo diretório do script
