@@ -28,7 +28,7 @@ Antes de tudo, prepare o arquivo de entrada:
 ## 2. Instale as bibliotecas necessárias
 Você pode usar o terminal ou o Jupyter Notebook:
 
-utilize no terminal: pip install pandas geopy
+Utilize este comando no terminal -->> pip install pandas geopy
 
 ## 3. Execute o script Python
 
