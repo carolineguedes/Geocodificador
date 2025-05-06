@@ -20,10 +20,11 @@ Este sistema utiliza Python e a biblioteca "geopy" para converter endereços em 
 ## 🚀 Como Usar
 Antes de tudo, prepare o arquivo de entrada:
 
-- O arquivo deve ser um CSV com separador 
-- Nomeie as colunas como: rua, bairro, municipio, estado
+- O arquivo deve ser um CSV seoarado por vírgula (,);
+- Nomeie as colunas como: rua, bairro, municipio, estado (caso voce não queira tão detalhado, pode modificar o código adicionando apenas o que é de interrsse para a sua geocodificacão, ex. cidade e estado; 
 - Evite acentos e caracteres especiais (ex: "São José" ➜ "Sao Jose", "Trav. João N." ➜ "Trav Joao N")
-- Salve como enderecos.csv no mesmo diretório do script
+- Salve como enderecos.csv no mesmo diretório (pasta) do script. Esse processo é importante para a sincronização. 
+  
 - **Importante:** Se a sua tabela contém mais informações além dos campos necessários, é conselhavel extrair apenas as colunas com as informações que serão trabalhadas no código, para evitar erros. Após conseguir geocodificar, você pode fazer um join entre as tabelas. Daí, então, gerar os pontos  a partir da geocodificação no software da sa preferência!
 
 ## 2. Instale as bibliotecas necessárias
@@ -31,7 +32,9 @@ Você pode usar o terminal ou o Jupyter Notebook:
 
 Utilize este comando no terminal -->> **pip install pandas geopy**
 
-## 3. Execute o script Python
+Para executar este script, eu utilizei o VS Code, mas você pode utilizar em qualquer terminal.
+
+## 3. Execute o script Python, que está anexado 
 
 ## 4. Leia, é importante!
 
